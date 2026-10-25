@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Siubi Client License</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&family=Work+Sans:wght@400;500;800&display=swap">
+<style>
+:root{
+  --bg:#04050c; --panel:rgba(4,5,18,.84); --btn:#0d0a3b; --btnline:#1b8fd8; --frame:#2bbac9; --cyan:#58f6ff; --ink:#e4f4ff; --muted:#8fb0c8; --ember:#ff7a2a;
+  color-scheme:dark;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){--bg:#04050c; --panel:rgba(4,5,18,.84); --btn:#0d0a3b; --btnline:#1b8fd8; --frame:#2bbac9; --cyan:#58f6ff; --ink:#e4f4ff; --muted:#8fb0c8;}
+}
+:root[data-theme="dark"]{--bg:#04050c; --panel:rgba(4,5,18,.84); --btn:#0d0a3b; --btnline:#1b8fd8; --frame:#2bbac9; --cyan:#58f6ff; --ink:#e4f4ff; --muted:#8fb0c8;}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;color:var(--ink);font-family:"Work Sans",Arial,sans-serif;line-height:1.7;font-size:1.02rem;
+  background:
+    radial-gradient(ellipse at 8% 12%,rgba(255,122,42,.30) 0,transparent 42%),
+    radial-gradient(ellipse at 92% 78%,rgba(30,120,170,.32) 0,transparent 46%),
+    radial-gradient(ellipse at 55% 35%,rgba(150,110,200,.14) 0,transparent 40%),
+    var(--bg);
+  background-attachment:fixed}
+main{max-width:46rem;margin:0 auto;padding:2.5rem 1rem 4rem}
+header{text-align:center;margin-bottom:2rem}
+h1{margin:0;font-weight:800}
+.big{display:block;font-size:clamp(3.4rem,15vw,6rem);line-height:1;color:var(--cyan);letter-spacing:.01em;text-shadow:0 0 28px rgba(88,246,255,.35)}
+.sub{display:inline-block;margin-top:.6rem;padding-bottom:.55rem;border-bottom:3px solid var(--cyan);font-family:"Pixelify Sans","Courier New",monospace;font-weight:500;font-size:clamp(1rem,4.5vw,1.4rem);letter-spacing:.45em;padding-left:.45em;color:var(--ink)}
+.frame{background:var(--panel);border:2px solid var(--frame);padding:clamp(1rem,4vw,2rem)}
+.copy{margin:0 0 1.5rem;color:var(--muted);text-align:center}
+section{margin:0 0 1.25rem}
+h2{font-family:"Pixelify Sans","Courier New",monospace;font-weight:500;font-size:1.1rem;margin:0 0 .6rem;padding:.55rem 1rem;background:var(--btn);border:2px solid var(--btnline);color:var(--ink)}
+section>p,section>ol{padding:0 .25rem}
+p{margin:.4rem 0}
+ol{margin:.5rem 0;padding-left:1.8rem}
+li{margin:.45rem 0}
+strong{color:var(--cyan)}
+.caps{font-size:.92rem;color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <h1><span class="big">SIUBI</span><span class="sub">Client License</span></h1>
+</header>
+<article class="frame">
+  <p class="copy">Copyright © 2026 Siubi. All rights reserved.</p>
+
+  <section>
+    <h2>1. Grant of use</h2>
+    <p>You are granted a free, personal, non-exclusive, non-transferable, revocable license to download and use Siubi Client for personal, non-commercial purposes.</p>
+  </section>
+
+  <section>
+    <h2>2. Restrictions</h2>
+    <p>You may <strong>not</strong>, without prior written permission from the author:</p>
+    <ol type="a">
+      <li>redistribute, re-upload, mirror, or share Siubi Client or any part of it (including on websites, file hosts, or in modpacks/launchers);</li>
+      <li>sell, rent, sublicense, or otherwise profit from Siubi Client or any derivative of it (including via paywalls, ad-links, donations tied to access, or paid servers requiring its use);</li>
+      <li>modify, decompile, or reverse engineer Siubi Client, except where applicable law explicitly allows it;</li>
+      <li>remove or alter copyright notices.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>3. No affiliation</h2>
+    <p>Siubi Client is not affiliated with or endorsed by Mojang Studios or Microsoft. Users must own a legitimate copy of Minecraft and comply with the Minecraft EULA.</p>
+  </section>
+
+  <section>
+    <h2>4. No warranty</h2>
+    <p class="caps">SIUBI CLIENT IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND. THE AUTHOR IS NOT LIABLE FOR ANY DAMAGES ARISING FROM ITS USE.</p>
+  </section>
+
+  <section>
+    <h2>5. Termination</h2>
+    <p>This license terminates automatically if you violate any of its terms.</p>
+  </section>
+</article>
+</main>
+</body>
+</html>
